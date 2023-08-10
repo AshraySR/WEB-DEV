@@ -1,7 +1,11 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "WEB-DEV",
+      "path": "WEB-DEV"
+    }
+  ]
 }
