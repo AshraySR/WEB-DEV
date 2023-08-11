@@ -105,5 +105,30 @@
       <br />
       <button>Submit</button>
     </form>
+    <hr />
+    <h1>Server side validation demo</h1>
+    <form action="hello.html">
+      <label for="First">Enter your first name</label><br />
+      <input
+        type="text"
+        name="First name"
+        id="First"
+        placeholder="First name"
+        required
+      />
+      <br />
+      <label for="password">Enter password</label><br />
+      <input
+        type="password"
+        name="Password"
+        id="password"
+        placeholder="Password"
+        minlength="8"
+        maxlength="20"
+        required
+      />
+      <br />
+      <button>Submit</button>
+    </form>
   </body>
 </html>
