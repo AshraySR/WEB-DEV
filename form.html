@@ -57,12 +57,30 @@
     <hr />
     <h1>Form for reddit and google search</h1>
     <form action="https://www.reddit.com/search">
-      <input type="text" name="q" />
-      <button>Reddit Search</button><br />
+      <p>
+        <input type="text" name="q" />
+        <button>Reddit Search</button><br />
+      </p>
     </form>
     <form action="https://www.google.com/search">
-      <input type="text" name="q" />
-      <button>Google Search</button><br />
+      <p>
+        <input type="text" name="q" />
+        <button>Google Search</button><br />
+      </p>
+    </form>
+    <hr />
+    <h1>For checkbox and radio buttons</h1>
+    <form action="hello.html">
+      <input type="checkbox" name="terms" id="agree" />
+      <label for="agree">I agree to the terms and conditions</label>
+      <br />
+      <input type="radio" name="Size" id="Small" value="Small" />
+      <label for="Size">Small</label><br />
+      <input type="radio" name="Size" id="Medium" value="Medium" />
+      <label for="Size">Medium</label><br />
+      <input type="radio" name="Size" id="Large" value="Large" />
+      <label for="Size">Large</label><br />
+      <button>Submit</button>
     </form>
   </body>
 </html>
