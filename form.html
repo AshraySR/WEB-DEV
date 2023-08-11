@@ -11,29 +11,48 @@
       <!--To redirect us to about.html file when we click on gthe submit button-->
       <p>
         <label for="username">Enter a Username</label>
-        <input id="username" type="text" placeholder="Username" /><br />
+        <input
+          id="username"
+          type="text"
+          placeholder="Username"
+          name="username"
+        /><br />
       </p>
       <p>
         <label for="password">Enter password</label>
-        <input id="password" type="password" placeholder="password" /><br />
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        /><br />
       </p>
       <p>
         <label for="color">Choose a color</label>
-        <input id="color" type="color" /><br />
+        <input id="color" type="color" name="color" /><br />
       </p>
       <p>
         <label for="number">Enter Number</label>
-        <input id="number" type="number" placeholder="lucky number" /><br />
+        <input
+          id="number"
+          type="number"
+          placeholder="lucky number"
+          name="number"
+        /><br />
       </p>
       <p>
-        <label for="time">Enter a Username</label>
-        <input id="time" type="time" /><br />
+        <label for="time">Enter Time</label>
+        <input id="time" type="time" name="time" /><br />
       </p>
       <p>
         <label for="range">Slide the range bar</label>
-        <input id="range" type="range" /><br />
+        <input id="range" type="range" name="range" /><br />
       </p>
       <button>submit</button>
     </form>
+    <p>
+      <button>This button is outside the form</button>
+      <!--This button is outside form so it wont redirect to about.html-->
+    </p>
   </body>
 </html>
