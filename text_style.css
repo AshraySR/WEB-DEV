@@ -17,7 +17,7 @@ li{
     
 }
 a{
-    text-decoration: none;
+    text-decoration: underline wavy red;
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
